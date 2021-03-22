@@ -12,6 +12,7 @@
 		84E112B22608B6270027FE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E112B12608B6270027FE8E /* Assets.xcassets */; };
 		84E112B52608B6270027FE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E112B32608B6270027FE8E /* LaunchScreen.storyboard */; };
 		84E112B82608B6270027FE8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E112B72608B6270027FE8E /* main.m */; };
+		84E112C32608C22E0027FE8E /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E112C22608C22E0027FE8E /* ResultsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		84E112B42608B6270027FE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E112B62608B6270027FE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E112B72608B6270027FE8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E112C12608C22E0027FE8E /* ResultsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
+		84E112C22608C22E0027FE8E /* ResultsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				84E112A62608B6250027FE8E /* AppDelegate.m */,
 				84E112AB2608B6250027FE8E /* ViewController.h */,
 				84E112AC2608B6250027FE8E /* ViewController.m */,
+				84E112C12608C22E0027FE8E /* ResultsTableViewController.h */,
+				84E112C22608C22E0027FE8E /* ResultsTableViewController.m */,
 				84E112B12608B6270027FE8E /* Assets.xcassets */,
 				84E112B32608B6270027FE8E /* LaunchScreen.storyboard */,
 				84E112B62608B6270027FE8E /* Info.plist */,
@@ -136,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E112C32608C22E0027FE8E /* ResultsTableViewController.m in Sources */,
 				84E112AD2608B6250027FE8E /* ViewController.m in Sources */,
 				84E112A72608B6250027FE8E /* AppDelegate.m in Sources */,
 				84E112B82608B6270027FE8E /* main.m in Sources */,
