@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84E112A72608B6250027FE8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E112A62608B6250027FE8E /* AppDelegate.m */; };
-		84E112AA2608B6250027FE8E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E112A92608B6250027FE8E /* SceneDelegate.m */; };
 		84E112AD2608B6250027FE8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E112AC2608B6250027FE8E /* ViewController.m */; };
-		84E112B02608B6250027FE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E112AE2608B6250027FE8E /* Main.storyboard */; };
 		84E112B22608B6270027FE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E112B12608B6270027FE8E /* Assets.xcassets */; };
 		84E112B52608B6270027FE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E112B32608B6270027FE8E /* LaunchScreen.storyboard */; };
 		84E112B82608B6270027FE8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E112B72608B6270027FE8E /* main.m */; };
@@ -20,11 +18,8 @@
 		84E112A22608B6250027FE8E /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E112A52608B6250027FE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E112A62608B6250027FE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84E112A82608B6250027FE8E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		84E112A92608B6250027FE8E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		84E112AB2608B6250027FE8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84E112AC2608B6250027FE8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84E112AF2608B6250027FE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E112B12608B6270027FE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E112B42608B6270027FE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E112B62608B6270027FE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,11 +58,8 @@
 			children = (
 				84E112A52608B6250027FE8E /* AppDelegate.h */,
 				84E112A62608B6250027FE8E /* AppDelegate.m */,
-				84E112A82608B6250027FE8E /* SceneDelegate.h */,
-				84E112A92608B6250027FE8E /* SceneDelegate.m */,
 				84E112AB2608B6250027FE8E /* ViewController.h */,
 				84E112AC2608B6250027FE8E /* ViewController.m */,
-				84E112AE2608B6250027FE8E /* Main.storyboard */,
 				84E112B12608B6270027FE8E /* Assets.xcassets */,
 				84E112B32608B6270027FE8E /* LaunchScreen.storyboard */,
 				84E112B62608B6270027FE8E /* Info.plist */,
@@ -134,7 +126,6 @@
 			files = (
 				84E112B52608B6270027FE8E /* LaunchScreen.storyboard in Resources */,
 				84E112B22608B6270027FE8E /* Assets.xcassets in Resources */,
-				84E112B02608B6250027FE8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,21 +139,12 @@
 				84E112AD2608B6250027FE8E /* ViewController.m in Sources */,
 				84E112A72608B6250027FE8E /* AppDelegate.m in Sources */,
 				84E112B82608B6270027FE8E /* main.m in Sources */,
-				84E112AA2608B6250027FE8E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84E112AE2608B6250027FE8E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84E112AF2608B6250027FE8E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84E112B32608B6270027FE8E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
